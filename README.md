@@ -19,3 +19,7 @@ This project is a sample IMDB-like application designed to manage a list of movi
 - **Delete Movie**: Remove a movie from the database.
 
 This application is built with a focus on basic movie database operations, aiming to mimic the core functionalities of IMDB.
+
+
+![Screenshot 2024-08-30 132426](https://github.com/user-attachments/assets/7eceef36-9072-448f-928c-6f7fe323ab23)
+![Screenshot 2024-08-30 132526](https://github.com/user-attachments/assets/89688c4b-1b3b-49b7-957f-a4cce3ada671)
