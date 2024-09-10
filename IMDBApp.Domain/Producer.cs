@@ -1,19 +1,10 @@
 ﻿namespace IMDBApp.Domain
 {
-    public class Producer
+    public class Producer:Person
     {
-        public int Id { get; private set; }
-        public string Name { get; set; }
-        public DateTime DOB { get; set; }
+        public Producer(string name,DateTime dob) : base(name, dob)
+        {
 
-        public Producer(string name, DateTime dateOfBirth)
-        {
-            Name = name;
-            DOB = dateOfBirth;
-        }
-        public void SetId(int id)
-        {
-            Id = id;
         }
     }
 }
