@@ -1,19 +1,10 @@
 ﻿namespace IMDBApp.Domain
 {
-    public class Actor
+    public class Actor :Person
     {
-        public int Id { get; private set;}
-        public string Name { get; set; }
-        public DateTime DOB { get; set; }
-
-        public Actor(string name, DateTime dob)
+        public Actor(string name,DateTime dob):base(name,dob) 
         {
-            Name = name;
-            DOB = dob;
-        }
-        public void SetId(int id)
-        {
-            Id = id;
+            
         }
     }
 
